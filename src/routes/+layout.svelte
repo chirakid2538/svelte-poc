@@ -5,18 +5,10 @@
 </script>
 
 <AppBar />
-<div class="relative flex flex-col justify-between full-screen-height">
-  <div class="full-content-height">
-    <slot />
-  </div>
+<div class="relative flex flex-col justify-between">
+  <slot />
   <Footer />
 </div>
 
 <style>
-  .full-screen-height {
-    height: 100dvh;
-  }
-  .full-content-height {
-    height: 100dvh;
-  }
 </style>
